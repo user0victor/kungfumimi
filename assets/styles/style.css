@@ -1,0 +1,355 @@
+@import url('https://fonts.googleapis.com/css2?family=Dekko&display=swap')
+
+* {
+ margin: 0;
+ padding: 0;
+}
+body {
+ font-family: sans-serif;
+ margin: 0;
+ width: 100%;
+ height: 100%;
+ background-color: #181818;
+}
+
+/* ------------ BODY ------------ */
+.header-container{
+ padding: 0;
+ background-color: black;
+ width: 100%;
+ height: 70px;
+ display: flex;
+ justify-content: center;
+}
+nav img{
+ height: 50px;
+}
+header{
+ width: 90%;
+ height: 100%;
+ display: flex;
+ align-items: center;
+}
+nav{
+ width: 100%;
+ height: 100%;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+}
+nav ul{
+ display: flex;
+ justify-content: space-between;
+ width: 400px;
+}
+.logo-container{
+ width: 300px;
+ display: flex;
+}
+nav li{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ height: 40px;
+ width: 120px;
+ border: 1px solid #181818;
+ border-radius: 10px 5px;
+}
+.nav-links{
+ text-decoration: none;
+ color: white;
+}
+#active{
+ background-color: #E00712;
+}
+
+/* ------------ NAV ------------ */
+
+.img-container{
+ width: 100%;
+ height: 85vh;
+}
+.banner-container{
+ background-image: url("../img/banner.jpg");
+ width: 100%;
+ height: 100%;
+ background-position: right center;
+ background-repeat: no-repeat;
+ background-size: contain;
+}
+.banner{
+ position:  absolute;
+ width: 800px;
+ height: 85vh;
+ background-image: linear-gradient(to right, #181818 75%, transparent);
+ display: flex;
+ align-items: center;
+}
+.banner-content{
+ margin-left: 30px;
+ width: 500px;
+ height: 500px;
+ color: white;
+}
+.banner-text{
+ display: flex;
+ flex-direction: column;
+ margin-top: 40px;
+ height: 50px;
+ justify-content: space-around;
+}
+.banner-text p{
+ font-size: 20px;
+ font-family: "Dekko", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+span a{
+ color: #E00712;
+ text-decoration: none;
+}
+.banner-button{
+  margin-top: 10px;
+}
+#cinemark{
+ width: fit-content;
+ padding: 10px 20px;
+ border: 1px solid black;
+ border-radius: 10px 5px;
+ background-color: #E00712;
+ color: white;
+ text-decoration: none;
+}
+/* ------------ HEADER ------------ */
+.main-container{
+  background-color: black;
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.item img{
+  width: 500px;
+  object-fit: scale-down;
+}
+main{
+  width: 100%;
+
+}
+.toys-container{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.toys-image{
+  width: fit-content;
+  height: 30%;
+  display: flex;
+  justify-content: center;
+}
+.toys-image img{
+  width: 100%;
+  object-fit: scale-down;
+  filter: drop-shadow(5px 5px 10px #66E35E);
+}
+.toys-presentation{
+  width: 50%;
+  height: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.presentation-text{
+  width: 100%;
+  color: white;
+  font-size: 1.1em;
+  margin-right: 20px;
+  text-align: justify;
+  font-family: "Dekko", cursive;
+}
+.produto{
+  width: 100%;
+  color: white;
+  text-align: center;
+}
+.brinquedos{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  width: 90%;
+}
+.brinquedos-container{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.item{
+  width: 300px;
+}
+.brinquedos .item img{
+  width: 100%;
+}
+
+.pay-container{
+  width: 100%;
+  display: flex;
+  background-image: url("../img/pay-wallpaper.jpeg");
+  background-size: cover;
+  margin-top: 20px;
+  height: 1000px;
+  align-items: center;
+}
+.pay-bg{
+  width: 100%;
+  height: 500px;
+  background-color: rgba(9.41%, 9.41%, 9.41%, 0.5);
+  display: flex;
+  align-items: center;
+}
+.pay{
+  width: 100%;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.pay-image{
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.pay-image img{
+  width: 80%;
+  object-fit: scale-down;
+}
+.pay-presentation{
+  width: 45%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.pay-text{
+  width: 90%;
+  text-align: justify;
+  padding: 5px;
+  color: white;
+  font-size: 1.1em;
+}
+.pay-text ul{
+  list-style: none;
+  padding: 0;
+}
+.pay-text ul li{
+  padding: 5px 0;
+}
+.pay-link-container{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.pay-link{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 45px;
+  background-color: #FD384F;
+  border-radius: 10px 5px;
+}
+.pay-link a{
+  padding: 20px;
+  color: white;
+  text-decoration: none;
+}
+@media only screen and (max-width: 860px) {
+  nav {
+    justify-content: center;
+    flex-direction: column;
+    margin: 0;
+    padding: 5px 0;
+    width: 100%;
+  }
+  nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5px;
+    width: 100%;
+    margin: 0;
+    padding: 5px 0;
+  }
+  .item{
+    width: 150px;
+  }
+  .header-container{
+    width: 100%;
+    height: fit-content;
+  }
+  header{
+    width: 100%;
+    height: fit-content;
+  }
+  .toys-container{
+    flex-direction: column;
+  }
+  .toys-presentation{
+    width: 80%;
+  }
+  .img-container{
+    width: 100%;
+    padding: 20px 0;
+  }
+  .img-container{
+    width: 100%;
+    height: 500px;
+  }
+  .banner-container{
+    width: 100%;
+    justify-content: center;
+    background: none;
+  }
+  .banner{
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+  }
+  .banner-content{
+    width: 80%;
+    height: fit-content;
+    margin: 0 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: start;
+  }
+  .banner-text{
+    height: fit-content;
+  }
+  .banner-content img{
+    width: 100%;
+  }
+  .pay{
+    flex-direction: column;
+  }
+  .pay-image{
+    width: fit-content;
+    height: 50%;
+  }
+  .pay-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: scale-down;
+  }
+  .pay-presentation{
+    width: 100%;
+  }
+}
